@@ -1,16 +1,85 @@
-# React + Vite
+<!-- ...existing code... -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Frontend
 
-Currently, two official plugins are available:
+## Project overview
+This is the frontend for the Assignment1 project — a React single-page application built with Vite. It contains the UI, components, and assets used to interact with the backend/services for the assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Framework used
+- React (with Vite)
 
-## React Compiler
+## Prerequisites
+- Node.js >= 16.x
+- npm (or yarn)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Steps to run
+1. Open a terminal and navigate to the frontend folder:
+   ```bash
+   cd c:\one\OneDrive\Desktop\abhugyan\Web3Assam-Cohort\Mentees\Abhigyan Borah\Assignment1\frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+   The app will be available at the address shown in the terminal (typically http://localhost:5173).
 
-## Expanding the ESLint configuration
+4. Build for production:
+   ```bash
+   npm run build
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Preview the production build locally:
+   ```bash
+   npm run preview
+   ```
+
+## Notes
+- If the project uses environment variables, add them to a `.env` file in this folder (refer to Vite docs for naming).
+- Adjust Node/npm versions if you encounter compatibility issues.
+```<!-- filepath: c:\one\OneDrive\Desktop\abhugyan\Web3Assam-Cohort\Mentees\Abhigyan Borah\Assignment1\frontend\README.md -->
+<!-- ...existing code... -->
+
+# Frontend
+
+## Project overview
+This is the frontend for the Assignment1 project — a React single-page application built with Vite. It contains the UI, components, and assets used to interact with the backend/services for the assignment.
+
+## Framework used
+- React (with Vite)
+
+## Prerequisites
+- Node.js >= 16.x
+- npm (or yarn)
+
+## Steps to run
+1. Open a terminal and navigate to the frontend folder:
+   ```bash
+   cd c:\one\OneDrive\Desktop\abhugyan\Web3Assam-Cohort\Mentees\Abhigyan Borah\Assignment1\frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+   The app will be available at the address shown in the terminal (typically http://localhost:5173).
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+5. Preview the production build locally:
+   ```bash
+   npm run preview
+   ```
+
+## Notes
+- If the project uses environment variables, add them to a `.env` file in this folder (refer to Vite docs for naming).
+- Adjust Node/npm versions if you encounter compatibility issues.
